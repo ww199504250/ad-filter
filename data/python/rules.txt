@@ -28,6 +28,30 @@ https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ad
 #https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts
 # 茯苓拦截规则（官方CDN）
 https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Privacy/Privacy.txt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.txt
+https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/dns.txt
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+https://raw.githubusercontent.com/qq5460168/666/master/dns.txt
+https://github.com/ilxp/koolproxy/raw/main/rules/koolproxy.txt
+https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts
+https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
+https://ad.kirychan.com/KR_DNS_Filter.txt
+https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
+https://anti-ad.net/easylist.txt
+https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt
+https://easylist-downloads.adblockplus.org/easylistchina.txt
+https://raw.githubusercontent.com/kers701/Adhome/refs/heads/main/back.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
 
 # 白名单规则 (Allow Rules)
 # 格式: 每行一个URL
