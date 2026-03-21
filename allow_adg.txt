@@ -1,7 +1,7 @@
 ! Title: AdGuard 白名单
 ! Homepage: https://github.com/045200/ad-filter
 ! Expires: 12 Hours
-! Version: 2026-03-20 20:52:46（北京时间）
+! Version: 2026-03-21 09:43:04（北京时间）
 ! Description: 适用于 AdGuard 的白名单规则
 ! Total count: 16834
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
