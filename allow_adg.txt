@@ -1,9 +1,10 @@
 ! Title: AdGuard 白名单
 ! Homepage: https://github.com/045200/ad-filter
 ! Expires: 12 Hours
-! Version: 2026-03-25 09:53:10（北京时间）
+! Version: 2026-03-26 09:59:40（北京时间）
 ! Description: 适用于 AdGuard 的白名单规则
-! Total count: 17125
+! Total count: 17129
+@@
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -13226,6 +13227,7 @@
 @@||roland-gazeta.pl^$generichide
 @@||rom.realme.com^
 @@||romsforever.co^$generichide
+@@||roomlala.*/assets/myspace/myprofile/sponsorship_controller-*.js
 @@||rootzaffiliates.com^$domain=rootzaffiliates.com
 @@||rosefile.net^$generichide
 @@||rota.cc^$stealth=referrer
@@ -15166,6 +15168,7 @@
 @@||tianshu.gtimg.cn^
 @@||tibiabr.com^$generichide
 @@||tibiawiki.com.br^$generichide
+@@||ticket.yes24.com^$stealth=dpi
 @@||tickets.nickelodeonadventure.co.uk^$xmlhttprequest,elemhide,jsinject,extension
 @@||tickets.oebb.at^$generichide
 @@||tickle.porn/player/html.php?aid=pre_roll$subdocument,domain=tickle.porn
@@ -16022,6 +16025,7 @@
 @@||vider.info^$stealth
 @@||vidhidepro.com^$stealth=referrer
 @@||vidhidevip.com/embed/$subdocument,stealth=referrer
+@@||vidkocu.site/embed.php$stealth=referrer,third-party
 @@||vidlii.com^$generichide
 @@||vidload.lol/iframe/$stealth=referrer
 @@||vidload.site^$stealth=referrer
