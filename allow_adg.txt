@@ -1,7 +1,7 @@
 ! Title: AdGuard 白名单
 ! Homepage: https://github.com/045200/ad-filter
 ! Expires: 12 Hours
-! Version: 2026-04-09 21:17:46（北京时间）
+! Version: 2026-04-10 10:07:56（北京时间）
 ! Description: 适用于 AdGuard 的白名单规则
 ! Total count: 17356
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
@@ -6361,7 +6361,6 @@
 @@||eiv.baidu.com/fcimg
 @@||eksenload.site^$stealth=referrer
 @@||elabs12.com/functions/message_view.html$document
-@@||elahmad.com/ads/fc.php
 @@||eldaminger.blogspot.com^$generichide
 @@||eldaryasolutiongame.blogspot.com^$generichide
 @@||elearn.interviewgig.com^$generichide
@@ -8390,7 +8389,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=drphil.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=earth.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=einthusan.ca|einthusan.tv|einthusan.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=elahmad.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=elle.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=embed-zattoo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=etonline.com
@@ -11706,6 +11704,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freethesaurus.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fshost.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ftuapps.dev
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ftuapps.farlad.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fuelfinder.dk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fullboys.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=game3rb.com
@@ -15486,6 +15485,7 @@
 @@||torrentz.adtrackers.net/mgid/ad.js
 @@||torrentz.bannertrack.net/mgid/ad.js
 @@||tortuga.wtf^$stealth=referrer
+@@||torupload.com/token/gettoken.php$domain=torupload.com
 @@||tot.hoyoverse.com^
 @@||total-sportek.to^$generichide
 @@||totalbike.hu^$generichide
