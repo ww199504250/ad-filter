@@ -1,9 +1,9 @@
 ! Title: AdGuard 白名单
 ! Homepage: https://github.com/045200/ad-filter
 ! Expires: 12 Hours
-! Version: 2026-04-14 21:18:18（北京时间）
+! Version: 2026-04-15 21:17:11（北京时间）
 ! Description: 适用于 AdGuard 的白名单规则
-! Total count: 17426
+! Total count: 17425
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -191,7 +191,7 @@
 @@/favicon.ico$domain=lubetube.com
 @@/favicon.ico$third-party,domain=thehouseofportable.com
 @@/file$xmlhttprequest,stealth=referrer,domain=streameeeeee.site|videostr.net
-@@/file2/$xmlhttprequest,stealth=referrer,domain=vidora.stream
+@@/file2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
 @@/file2/*==/*$xmlhttprequest,stealth=referrer,domain=megacloud.*
 @@/fingerprint2.$domain=nfmovies.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|pop-fashion.com
@@ -207,7 +207,7 @@
 @@/hls/*$stealth=referrer,domain=closeload.top
 @@/hls/*.m3u8$stealth=referrer
 @@/hls/*.ts$stealth=referrer,domain=techclips.net
-@@/hls2/$xmlhttprequest,stealth=referrer,domain=vidora.stream
+@@/hls2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
 @@/https?:\/\/(www\.)?sonixgvn\.net\/.{1,15}\.js$/$script,~third-party,domain=sonixgvn.net
 @@/iframe.php$stealth=referrer,domain=dizilla.*
 @@/image/*$xmlhttprequest,stealth=referrer,domain=turkanime.co
@@ -3210,6 +3210,8 @@
 @@||api-overmind.youdao.com^
 @@||api-pay.soulapp.cn^
 @@||api-pda.jdl.com^
+@@||api-protected.protoawegw.com/v2/player/performer/$stealth=referrer,domain=ctcdwm.com
+@@||api-protected.protoawegw.com/v2/player/performer/$xmlhttprequest,domain=ctcdwm.com
 @@||api-public.stoerungsauskunft.de/api$stealth=3p-auth
 @@||api-push.meizu.com^
 @@||api-sc.wtzw.com^
@@ -4445,7 +4447,7 @@
 @@||care.meizu.com^
 @@||carefood.kz/upload/$image
 @@||cargocollective.com/designs/$document
-@@||cart.books.com.tw/member/login$stealth=java
+@@||cart.books.com.tw/member/login$stealth=java|flash
 @@||cartoon.porn^$generichide
 @@||cashier.ele.me^
 @@||casos-aislados.com^$generichide
@@ -5589,6 +5591,7 @@
 @@||cstaticdun.126.net^
 @@||cstore.koubei.com^
 @@||ct10000.com
+@@||ctcdwm.com/live-stream/$subdocument,domain=camsfinder.com
 @@||ctldl.windowsupdate.com^
 @@||ctrip.com^
 @@||ctrip.com^$important
@@ -6965,7 +6968,6 @@
 @@||freepsdvn.com^$generichide
 @@||freereceivesms.com/*.js
 @@||freeride.se/img/admarket/$~third-party
-@@||freeserial-keys.blogspot.com^$generichide
 @@||freeshib.biz^$generichide
 @@||freesoftpdfdownload.blogspot.com^$generichide
 @@||freetimelearning.com^$generichide
@@ -8970,7 +8972,6 @@
 @@||intel11.edgekey.net^
 @@||intelcorporationproductione*.org.coveo.com/rest/search/$stealth=3p-auth
 @@||intelyvale.com.mx/ads/images/$domain=valesdegasolina.mx
-@@||intercelestial.com^$generichide
 @@||intercom-clicks.com^
 @@||interest.mix.sina.com.cn^
 @@||interface.music.163.com.163jiasu.com^
@@ -10818,7 +10819,6 @@
 @@||native.sharethrough.com/assets/sfp.js$domain=looper.com
 @@||natlawreview.com^$generichide
 @@||natro.com^$stealth=dpi
-@@||naturalbd.com^$generichide
 @@||nav-edge.smartscreen.microsoft.com^
 @@||nav.browser.miui.com^
 @@||nav.porsche.com^
@@ -10826,7 +10826,6 @@
 @@||navigis.uc.cn^
 @@||navratdoreality.cz^$generichide
 @@||nazolog.com^$generichide
-@@||nb-music.net^$generichide
 @@||nbaapi.neulion.com/api_nba/$stealth=3p-auth,domain=nba.com
 @@||nbcolympics.com/profiles/olympics/*$domain=nbcolympics.com
 @@||nc-cdn.oss-us-west-1.aliyuncs.com/videotranscriber/upload/$stealth=3p-auth
@@ -12242,7 +12241,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=ottverse.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=scamdoc.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=testadmit.com
-@@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=freeserial-keys.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=freewarefiles.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=24sms.net
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=360haven.com
@@ -12582,6 +12580,7 @@
 @@||pisupisu.pl^$generichide
 @@||pitaya.bytedance.com^
 @@||pitbullofficial.com^$generichide
+@@||pixabay.com/content-partner/$stealth=3p-cache|referrer,domain=canva.com
 @@||pixel.adsafeprotected.com/services/pub$domain=reuters.com
 @@||pixel.adsafeprotected.com^$domain=tio.ch
 @@||pixel.adsafeprotected.com^$xmlhttprequest,domain=gentside.com|ohmymag.com
@@ -12699,6 +12698,7 @@
 @@||playgrounds-assets-cdn.apple.com^$important
 @@||playgrounds-cdn.apple.com^$important
 @@||playlists.rocks^$generichide
+@@||playmogo.com^$subdocument,stealth=flash|java
 @@||playmyopinion.com/assets/developer/js/prebid-ads.js
 @@||playnewserie.xyz^$stealth=referrer
 @@||playshakespeare.com/*/js/prebid-ads.js
@@ -14514,7 +14514,7 @@
 @@||ssl.p.jwpcdn.com/player/v/*/*.js$domain=faselhd.cafe
 @@||ssl.p.jwpcdn.com/player/v/*/googima.js$xmlhttprequest,domain=play.nova.bg
 @@||ssl.p.jwpcdn.com/player/v/*/vast.js$xmlhttprequest,domain=idlixvip.asia
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru
 @@||ssl.p.jwpcdn.com^
 @@||ssl.p.jwpcdn.com^$domain=bdsmstreak.com
 @@||ssl.ptlogin2.qq.com^
@@ -15748,7 +15748,6 @@
 @@||tutorialescomo.com^$generichide
 @@||tutsnode.net^$generichide
 @@||tuttosport.com^$generichide
-@@||tv-onlinehd.com^$generichide
 @@||tv.2345.com^
 @@||tv.ads.spotx.tv^$domain=rakuten.tv
 @@||tv.hihonor.com^$important
@@ -16476,7 +16475,6 @@
 @@||wallpapers.ispazio.net^$generichide
 @@||wallpapershome.com/scripts/ads.js
 @@||wallpapershome.com^$generichide
-@@||wallpapersite.com/scripts/ads.js
 @@||wallpaperwaifu.com^$generichide
 @@||walmart.com/orchestra/*/graphq$stealth=donottrack
 @@||walmart.com/orchestra/api$stealth=donottrack
@@ -17109,6 +17107,7 @@
 @@||xda-developers.com/adsninja_package/js/adsninja-refreshing-ad-zone.js
 @@||xda-developers.com/app/plugins/xda-kco-affiliate/public/js/xda-kco-affiliate-public.js
 @@||xdcs-collector.ximalaya.com^
+@@||xdcs-collector.ximalaya.com^$important
 @@||xdiv.space/io/p/?token=$stealth=referrer
 @@||xdssp.mediav.com
 @@||xe.awinriglet.com/*/$domain=olamovies.blog
