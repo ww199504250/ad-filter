@@ -1,9 +1,9 @@
 ! Title: AdGuard 白名单
 ! Homepage: https://github.com/045200/ad-filter
 ! Expires: 12 Hours
-! Version: 2026-05-09 10:32:11（北京时间）
+! Version: 2026-05-11 10:44:55（北京时间）
 ! Description: 适用于 AdGuard 的白名单规则
-! Total count: 17055
+! Total count: 17050
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3541,7 +3541,6 @@
 @@||appimg-drcn.dbankcdn.com^
 @@||appimg.dbankcdn.com^
 @@||appldnld.apple.com.edgesuite.net^$important
-@@||appldnld.apple.com^
 @@||appldnld.apple.com^$important
 @@||apple-cloudkit.com^$important
 @@||apple-dns.net^
@@ -7090,7 +7089,6 @@
 @@||gdfpsec.gifshow.com^
 @@||gdlp01.c-wss.com^
 @@||gdmf-ados.apple.com^$important
-@@||gdmf.apple.com^
 @@||gdmf.apple.com^$important
 @@||gdown.baidu.com^
 @@||gdr-online.com/adv/ads.js
@@ -10133,7 +10131,6 @@
 @@||messenger.com/groupcall/$stealth=webrtc
 @@||messenger.com^$extension
 @@||messitv.net^$generichide
-@@||mesu.apple.com^
 @@||mesu.apple.com^$important
 @@||met-cronet-reporter.d.meituan.net^
 @@||met-cronet-reporter.dreport.meituan.net^
@@ -13751,6 +13748,7 @@
 @@||sequencecard.xyz^$generichide
 @@||seraphimonolith.space/content/$stealth=referrer
 @@||series-streaminghd.com^$generichide
+@@||seriezloaded.com.ng^$generichide
 @@||serve.adclixx.net/promoload
 @@||serve.adtrackers.net/promoload
 @@||serve.bannertrack.net/promoload
@@ -14719,7 +14717,6 @@
 @@||swapsmut.com/video/$stealth=referrer
 @@||sway.cloud.microsoft^
 @@||sway.com^$important
-@@||swcdn.apple.com^
 @@||swcdn.apple.com^$important
 @@||swdist.apple.com^$important
 @@||swdownload.apple.com^$important
@@ -15609,7 +15606,6 @@
 @@||updateinfo.market.xiaomi.com^
 @@||updatem.360safe.com^
 @@||updates-http.cdn-apple.com^$important
-@@||updates.cdn-apple.com^
 @@||updates.cdn-apple.com^$important
 @@||updatesmarugujarat.in^$generichide
 @@||upgrade.ptmi.gitv.tv^
@@ -17058,4 +17054,3 @@
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth=referrer
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 @@||ç½ååä»ç¨äºæµè¯.com^
-@@¶¦OÅ a¾1Ènì=2¤;p«Ó{ÊýB0DÝ±ýVZàå@F?è$¥Ü¸nÕ5å®ÙÛ$²L:3âZUöÐÒdí_¶ã£öÀå0ù¾ß	eÙUÀg¬>l NûPáÙ_¬ýõ@#ÄÂàw5ã>xõN¼ßS9@	£ìKk³,Lø°¿øÜ|uÏtÀIì¢f<¥MÉ.^ÑQ¦¿)T¢Uã	¨P©¸åV`0bÝÇ^Dá¢üiËÄêºH±Fl½æ:½Ù%6¼fò	[xTÊOÏÖ:aËÇ·}­Ëyò[ë6x,N^
