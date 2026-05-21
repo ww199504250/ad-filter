@@ -1,9 +1,9 @@
 ! Title: AdGuard 白名单
 ! Homepage: https://github.com/045200/ad-filter
 ! Expires: 12 Hours
-! Version: 2026-05-20 22:53:20（北京时间）
+! Version: 2026-05-21 10:53:26（北京时间）
 ! Description: 适用于 AdGuard 的白名单规则
-! Total count: 17060
+! Total count: 17065
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -155,6 +155,7 @@
 @@/advertising-$~script,~image,domain=forums.macrumors.com
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/advt.png$domain=freevpn4you.net
+@@/anime$xmlhttprequest,stealth=referrer,domain=vidwish.live|megaplay.buzz
 @@/api/models?$domain=tik.porn
 @@/api/v2/models-online?$domain=tik.porn
 @@/assets/ads-*.js$domain=notateslaapp.com
@@ -273,6 +274,7 @@
 @@/static/js/video/videojs-contrib-ads.min.js$domain=telegraf.rs|telegraf.tv
 @@/static/stream*.png$stealth=referrer,xmlhttprequest,domain=streamocean.online|streambtw.com
 @@/storage/js/*.js$~third-party,domain=wowmail.app|inipulsa.my.id|anon.tools|s-nr.dk
+@@/stream$xmlhttprequest,stealth=referrer,domain=kwik.cx
 @@/stream/*/*.m3u8$xmlhttprequest,domain=faselhd.cafe
 @@/stream/*/*.ts$xmlhttprequest,domain=faselhd.cafe
 @@/stylesheet/*$xmlhttprequest,stealth=referrer,domain=gamingzen.xyz
@@ -10865,6 +10867,7 @@
 @@||obituaries.therecord.com^|
 @@||obituaries.thestar.com^
 @@||obituaries.thestar.com^|
+@@||obituaries.toacorn.com^
 @@||obituaries.toacorn.com^|
 @@||objectivequiz.com^$generichide
 @@||objects.githubusercontent.com^
@@ -10984,6 +10987,7 @@
 @@||olx.org/ads/offer-eligibility$domain=olx.pl
 @@||olx.ua/static/olxua/naspersclassifieds-regional/olxeu-atlas-web/static/js/xgemius.js
 @@||om-apis.sk-pay.co.kr^$stealth=3p-auth,app=com.elevenst
+@@||om-ssl.consorsbank.de^
 @@||om-ssl.consorsbank.de^|
 @@||omahaproxy.appspot.com^$important
 @@||omgexploits.com^$generichide
@@ -16310,6 +16314,7 @@
 @@||windows7forum.pl^$generichide
 @@||windowsbulletin.com^$generichide
 @@||windowscentral.com/sites/wpcentral.com/files/advagg_js/$script
+@@||windowsforum.kr/prebid.js
 @@||winvistaclub.com/wp-content/uploads/$domain=thewindowsclub.com,stealth=referrer
 @@||wired.com^$generichide
 @@||wisdomquotesandstories.com^$generichide
