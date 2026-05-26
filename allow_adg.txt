@@ -1,9 +1,9 @@
 ! Title: AdGuard 白名单
 ! Homepage: https://github.com/045200/ad-filter
 ! Expires: 12 Hours
-! Version: 2026-05-23 10:38:38（北京时间）
+! Version: 2026-05-26 10:46:32（北京时间）
 ! Description: 适用于 AdGuard 的白名单规则
-! Total count: 17075
+! Total count: 17087
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2102,6 +2102,7 @@
 @@||5692.com.ua/assets/*/ads-complain.js
 @@||58img.top/muliframe/muliframe$stealth=referrer,domain=mypornerleak.com
 @@||58img.top^$image,stealth=referrer,domain=hornysimp.com.lv|mypornerleak.com
+@@||58img.top^$stealth=referrer
 @@||5dm.link^$subdocument,stealth=referrer
 @@||5ggyan.com^$generichide
 @@||6-c-0003.c-msedge.net^
@@ -3595,6 +3596,7 @@
 @@||appsupport.qq.com^
 @@||appsupport.qq.com^$important
 @@||apptoko.com^$generichide
+@@||appupdates.189.cn^
 @@||appvn.com^$generichide
 @@||appzdam.net^$elemhide
 @@||aps-web.adobe.io/webapps/access_profile$stealth=3p-auth
@@ -6305,6 +6307,7 @@
 @@||elektrikmen.com/wp-content/plugins/ad-inserter/images/ads.png
 @@||elektrikmen.com^$generichide
 @@||elektrotanya.com/files/ads/adblockdetect.js
+@@||elitesuppsproduction15fy12zem.org.coveo.com^$stealth=3p-auth,domain=elitesupps.com.au
 @@||elitetunnel.com^$generichide
 @@||elmueble.com^$generichide
 @@||elmundo.es^$generichide
@@ -6338,6 +6341,7 @@
 @@||embed.new.video^$stealth=referrer|ip
 @@||embed.redditmedia.com/widgets/platform.js$domain=gamerant.com
 @@||embed.sendtonews.com/player*.php$domain=earth.com
+@@||embed.sendtonews.com/player3/$domain=nypost.com
 @@||embed.watchanimesub.net/inc/embed/ads.js
 @@||embed.watchanimesub.net/inc/embed/kampyle.js
 @@||embed.watchanimesub.net/inc/embed/suv4.js
@@ -6758,6 +6762,7 @@
 @@||flowus.cn^
 @@||fls.doubleclick.net/activityi$domain=geforce.com
 @@||fls.doubleclick.net^$domain=usanetwork.com
+@@||fluid.4strokemedia.com/www/delivery/$domain=footballtransfers.com
 @@||fluxteam.xyz/*/checkpoint/css/advert/
 @@||flycutlink.com^$generichide
 @@||flydigi.com^
@@ -7817,6 +7822,7 @@
 @@||hgtv.ca^$generichide
 @@||hhkungfu.tv^$generichide
 @@||hideandseek.world/js/prebid-ads.js
+@@||hidencloud.com^$generichide
 @@||hidive.com^
 @@||hidive.com^|
 @@||highresolutionmusic.com^$generichide
@@ -8316,6 +8322,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=familyminded.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=feltet.dk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=flipboard.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=footballtransfers.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fortune.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=foxnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fptplay.vn
@@ -8416,6 +8423,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ntvspor.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nuke.zone
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nydailynews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nypost.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=observatornews.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=oe24.at
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=oggi.it
@@ -9289,6 +9297,7 @@
 @@||kumo.network-n.com/dist/app.js$domain=discordbotlist.com
 @@||kumospace.com^$stealth=webrtc
 @@||kun.uz^$stealth=dpi
+@@||kunlunpi.com^$important
 @@||kuramu.net^$generichide
 @@||kursjs.pl/js/ads-prebid.js
 @@||kursjs.pl/js/dfp.js
@@ -9471,6 +9480,7 @@
 @@||lightningmaps.org/min/index.php?f=js/
 @@||lightnovel.us^
 @@||lightswitch-public-service-prod06.ol.epicgames.com^$important
+@@||like.mgread.io/manga/$image,stealth=referrer
 @@||lilymanga.net/wp-content/uploads/ad-inserter*/*/ads.js
 @@||limbopro.com^
 @@||limestart.cn^
@@ -10423,6 +10433,7 @@
 @@||mozilla.cloudfare-dns.com^
 @@||mozilla.cloudflare-dns.com^
 @@||mp.163.com^
+@@||mp.mmvideocdn.com/mini-player/$domain=nypost.com
 @@||mp.mmvideocdn.com/mini-player/$domain=theplayerstribune.com
 @@||mp.mmvideocdn.com/mini-player/prod/voltax_mp.js$domain=earth.com
 @@||mp.weixin.qq.com^
@@ -16039,6 +16050,7 @@
 @@||vms-players.minutemediaservices.com^$script,domain=si.com
 @@||vms-videos.minutemediaservices.com/*/m3u8/$domain=reignoftroy.com
 @@||vms-videos.minutemediaservices.com/*/mpd/$xmlhttprequest,domain=beargoggleson.com
+@@||vms-videos.minutemediaservices.com^$domain=nypost.com
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=fortune.com
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=si.com
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=theplayerstribune.com
